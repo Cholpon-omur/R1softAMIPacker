@@ -23,6 +23,12 @@
          "source": "../files/welcome.txt",
           "destination": "/tmp/"
            },
+         {
+      "type": "shell",
+         "inline": [
+           "cp ../files/r1soft.repo.txt  /etc/yum.repos.d/"
+           ]
+           }, 
         {
       "type": "shell",
          "inline":[
